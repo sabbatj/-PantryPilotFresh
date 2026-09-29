@@ -24,18 +24,18 @@ local.properties
 *.temp
 *~
 
+# Android generated
+captures/
+.externalNativeBuild/
+.cxx/
+
 # Old source backups
 *.backup.txt
 *.previous.txt
 *.before-*.txt
 *before*.txt
 
-<<<<<<< Updated upstream
-# README (excluded from these commits)
-README.md
-=======
-# Android generated
-captures/
-.externalNativeBuild/
-.cxx/
->>>>>>> Stashed changes
+# Source photo folders
+# Final optimized Android images are stored in res/drawable-nodpi
+app/src/ingredients_photos/
+app/src/recipes_photos/
